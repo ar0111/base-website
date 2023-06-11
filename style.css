@@ -10,7 +10,7 @@ body{
     position: relative;
     background-image: url("img/hero2.png");
     background-repeat: no-repeat;
-    background-position:1110px -300px;
+    background-position:1140px -350px;
     z-index: 9;
 }
 
@@ -70,17 +70,24 @@ body{
     margin-top: 5px;
 }
 
-#heros{
-    /* background-color: #0b0e4e; */
-    z-index: -1;
+.icon-1{
+    padding:20px;
+    background-color: rgb(224, 42, 127);
+    border-radius: 100%;
 }
 
-/* img{
-    width: 200px;
-    min-height: 200px;
-    background-position: 3000px -150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-} */
+.icon-2{
+    padding:20px;
+    background-color: rgb(42, 224, 148);
+    border-radius: 100%;
+}
 
+.icon-3{
+    padding:20px;
+    background-color: rgb(224, 151, 42);
+    border-radius: 100%;
+}
+
+.features-div{
+    margin-top: 400px;
+}
