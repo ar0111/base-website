@@ -208,3 +208,22 @@ body{
     width: 20%;
     height: 20%;
   }
+
+  .plan-section{
+    background-color: rgba(128, 128, 128, 0.075);
+    background-image: url("img/shape-12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    width: 100%;
+  }
+
+  .plan-button1{
+    background-color: #f36a8d;
+    border-radius: 20px;
+  }
+
+  .plan-card{
+    background-color: #161848;
+    border-radius: 20px;
+  }
