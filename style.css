@@ -301,3 +301,7 @@ body{
     top: 30px;
     transform: rotate(90deg);
   }
+
+  hr{
+    border-top: 2px solid rgba(128, 128, 128, 0.918);
+  }
