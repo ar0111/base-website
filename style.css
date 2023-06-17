@@ -350,3 +350,16 @@ body{
     padding: 40px;
     border-radius: 20px;
   }
+
+  .footer-1{
+    background-color: rgb(78 107 255);
+    background-image: url("img/shape-16.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer-button{
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
