@@ -363,3 +363,30 @@ body{
     border-radius: 20px;
     padding: 5px 10px;
   }
+
+  ul{
+    padding: 0;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  .career-button{
+    background-color: rgb(37, 230, 165);
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 0 10px;
+  }
+
+  .email-button{
+    color: rgb(139 140 149);
+    width: 150px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: start;
+    background-color: transparent;
+    border: 2px solid rgb(139 140 149);
+  }
+
