@@ -380,13 +380,41 @@ body{
     padding: 0 10px;
   }
 
-  .email-button{
-    color: rgb(139 140 149);
-    width: 150px;
+  .email{
+    position: relative;
+  }
+
+  .email input{
+    height: 100%;
+    width: 70%;
     border-radius: 20px;
     padding: 5px 10px;
     text-align: start;
     background-color: transparent;
     border: 2px solid rgb(139 140 149);
+  }
+
+  .email input::placeholder{
+    color: rgba(121, 115, 117, 0.932) !important;
+  }
+
+  .email .icon-div{
+    position: absolute;
+    border-left: 2px solid rgb(139 140 149);
+    right: 40%;
+    top: 0;
+    height: 100%;
+    padding-left: 5px;
+    /* transform: translate(-50%, -50%); */
+  }
+
+  .icon-div .icon{
+    position: absolute;
+    top: 25%;
+    
+  }
+
+  .footer-text{
+    text-align: end;
   }
 
